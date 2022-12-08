@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Cheatsheet</title>
+</head>
+<body>
+
+
+    <!-- Javascript goes below-->
+    <script>
+        // Now that we're speaking JS, // is how to comment here
+
+        //DECLARING VARIABLES
+
+        let variableName = 'value';
+
+        //LOG TO THE CONSOLE
+
+        let insertedString = "insert a string"
+        console.log(`Use backticks instead of quotes to ${insertedString}`)
+
+        //FOR LOOPS
+        //  for ([initialExpression]; [conditionExpression]; [incrementExpression]){
+        //      statement;
+        //  }
+        // 
+        //  i++ to increment by 1
+
+        for (let i = 0; i < 10 ; i += 2){
+            console.log(i); // 0 2 4 6 8
+        }
+
+        //STRING REGULAR EXPRESSIONS
+        //Put string in /string/ with modifier, such as /string/i which means case (i)nsensitive
+
+        let text = "Visit Microsoft!";
+        let result = text.replace(/microsoft/i, "W3Schools"); 
+
+        // i	Perform case-insensitive matching	
+        // g	Perform a global match (find all matches rather than stopping after the first match)	
+        // m	Perform multiline matching
+
+        //WRITE TO HTML
+        //"demo" is an element in the HTML file with id="demo"
+        document.getElementById("demo").innerHTML = "Stuff you wanna say";
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
