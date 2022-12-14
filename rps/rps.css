@@ -57,7 +57,7 @@ button {
 
 #rock {
     border-color: rgb(130, 100, 20);
-    background-image: url(pics/rock.jpg);
+    background-image: url(./pics/rock.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ button {
 
 #paper {
     border-color: white;
-    background-image: url(pics/paper.jpg);
+    background-image: url(./pics/paper.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -81,7 +81,7 @@ button {
 
 #scissors {
     border-color: grey;
-    background-image: url(pics/scissors.jpg);
+    background-image: url(./pics/scissors.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -93,7 +93,7 @@ button {
 
 #lizard {
     border-color: green;
-    background-image: url(pics/lizard.jpg);
+    background-image: url(./pics/lizard.jpg);
     background-size: contain; 
     background-repeat: no-repeat;
 }
@@ -105,7 +105,7 @@ button {
 
 #spock {
     border-color: purple;
-    background-image: url(pics/spock.jpg);
+    background-image: url(./pics/spock.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
