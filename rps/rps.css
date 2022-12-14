@@ -1,0 +1,116 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 18px;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+}
+
+body {
+    padding: 1% 3%;
+}
+
+.playerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0, 0, auto;
+    justify-content: space-evenly;
+    max-width: 500px;
+    gap: 24px 24px;
+    margin: 16px auto;
+    background-color: #202020;
+    border-radius: 10%;
+    padding: 16px 0;
+}
+
+button {
+    font-size: 18px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: dashed;
+    background-color: #202020;
+    color: white;
+
+}
+
+.computerButton {
+    display: flex;
+    max-width: 200px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#computer {
+    border-color: red;
+}
+
+#rock {
+    border-color: rgb(130, 100, 20);
+    background-image: url(pics/rock.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#rock:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#paper {
+    border-color: white;
+    background-image: url(pics/paper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#paper:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#scissors {
+    border-color: grey;
+    background-image: url(pics/scissors.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#scissors:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#lizard {
+    border-color: green;
+    background-image: url(pics/lizard.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+#lizard:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#spock {
+    border-color: purple;
+    background-image: url(pics/spock.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spock:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

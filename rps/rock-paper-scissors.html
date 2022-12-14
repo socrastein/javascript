@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="rps.js" defer></script>
+    <link rel="stylesheet" href="rps.css">
+
+    <title>RPSLS</title>
+</head>
+<body>
+
+    <h1 class="heading">Rock Paper Scissors Lizard Spock</h1>
+    <iframe width="250" height="150" id="video" frameborder="0" modestbranding="1"
+    src="https://www.youtube.com/embed/pIpmITBocfM?autohide=1&modestbranding=1&playlist=pIpmITBocfM">
+    </iframe>
+    <h2 id="prompt">Make your choice:</h2>
+
+    <div class="playerButtons">
+        <button id="rock"      onClick="playRound(this.id)"></button>
+        <button id="paper"     onClick="playRound(this.id)"></button>
+        <button id="scissors"  onClick="playRound(this.id)"></button>
+        <button id="lizard"    onClick="playRound(this.id)"></button>
+        <button id="spock"     onClick="playRound(this.id)"></button>
+    </div>
+
+    <h2 id="playerDisplay">Player: 0</h2>
+    <h2 id="computerDisplay">Computer: 0</h2>
+
+    <div class="computerButton">
+        <button id="computer">                      CPU</button>
+    </div>
+
+    
+</body>
+</html>
