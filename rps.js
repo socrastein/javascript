@@ -151,7 +151,7 @@ function playRound(playerChoice){
         roundOver = true;
         
         if (!gameOver){
-            setTimeout(() => {clearRound();}, 500);
+            setTimeout(() => {clearRound();}, 2500);
         }
     }
 }
