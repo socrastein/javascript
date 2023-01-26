@@ -6,6 +6,34 @@ const prompt = document.getElementById("prompt");
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 
+const rulesButton = document.getElementById("rulesButton");
+
+
+const rules = document.getElementById("rules");
+const rulesVideo = document.getElementById("rulesVideo");
+
+const gameContainer = document.getElementById("gameContainer");
+
+const showRules = function() {
+    rules.setAttribute("class", "shown");
+    rulesVideo.setAttribute("class", "shown");
+    gameContainer.setAttribute("class", "hidden");
+    rulesButton.innerHTML = 'Hide Rules';
+    rulesButton.removeEventListener('click', showRules);
+    rulesButton.addEventListener('click', hideRules);
+}
+
+const hideRules = function() {
+    rules.setAttribute("class", "hidden");
+    rulesVideo.setAttribute("class", "hidden");
+    gameContainer.setAttribute("class", "shown");
+    rulesButton.innerHTML = 'Show Rules';
+    rulesButton.removeEventListener('click', hideRules);
+    rulesButton.addEventListener('click', showRules);
+}
+
+rulesButton.addEventListener('click', showRules);
+
 // Used for displaying RESET
 const paper = document.getElementById("paper");
 
